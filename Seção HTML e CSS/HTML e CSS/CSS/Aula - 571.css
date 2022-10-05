@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body div section h1,
+body div section p{
+    color: red;
+}
+
+.heading{
+    color: purple;
+}
+
+.FUCK1 p{
+    color: blue;
+}
+.FUCK1{
+    background-color: yellow;
+    height: 500px;
+    width: 600px;
+}
+
+
+@media (max-widht:350px)
+{
+    .FUCK1{
+        background-color: black;
+    }
+    
+}

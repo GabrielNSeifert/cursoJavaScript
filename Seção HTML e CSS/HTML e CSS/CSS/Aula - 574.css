@@ -1,0 +1,12 @@
+.FUCK:hover{
+    background-color: black;
+    color: white;
+}
+
+.FUCK:not(:hover){
+    background-color: purple ;    
+}
+
+.COE{
+    background-color: aqua;
+}

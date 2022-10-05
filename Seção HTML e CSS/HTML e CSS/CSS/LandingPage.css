@@ -1,0 +1,269 @@
+:root{
+    --primary-color: rgb(0, 0, 71); 
+    --white-color: white;
+    --gap: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 5.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5rem;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
+}
+
+.main-bg{
+    background-image: url(/Assets/Constellation.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg{
+    background-color: var(--white-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
+
+/*.menu-spacing{
+    height: 4.8rem;
+}*/
+
+.menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 0.1rem solid;
+    border-color: var(--primary-color);
+}
+
+.menu h1{
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.menu h1 a{
+    color: inherit;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.menu ul{
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: var(--primary-color);
+}
+
+.menu ul li a{
+    color: var(--primary-color);
+}
+
+.menu ul li a:hover{
+    transition:all 4000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: crimson;
+    text-decoration: underline crimson;
+}
+
+.menu h1:hover{
+    transition:all 4000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: crimson;
+    text-decoration: underline crimson;
+}
+
+.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    align-items: stretch;
+}
+
+.intro-text, .intro-img{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 2rem;
+}
+
+.intro-text p{
+    line-height: 3rem;
+    text-align: center;
+}    
+
+.intro-img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    padding-right: 2rem;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+}
+
+.doremi{
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding-top: 4.3rem;
+}
+
+.sectionlp{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+.Integrantes{
+    width: 33%;
+    padding: 3rem;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    align-items: stretch;
+    text-align: justify;
+}
+
+.Integrantes h2{
+    font-size:  4rem;
+}
+
+.title-lp{
+    padding: 3rem;
+    padding-top: 6.5rem;
+}
+
+.title-lp h2 {
+    text-align: left;
+    line-height: 3rem;
+}
+
+.title-gallery{
+    height: 25vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title-gallery h2{
+    padding-top: 8rem;
+}
+
+
+
+.pictures-gallery{
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-bottom: 3px;
+}
+
+.pictures-gallery img{
+    border: 1rem solid var(--primary-color);
+    overflow: hidden;
+    padding: 0.3rem;
+    transition:  all 300ms ease-in-out;
+}
+
+.pictures-gallery img:hover{
+    border: 1rem solid var(--primary-color);
+    overflow: hidden;
+    padding: 0.3rem;
+    transition:  all 300ms ease-in-out;
+    transform: translate(1.5rem, 0) scale(1.1);
+}
+
+.main-table-div{
+    padding-top: 10rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+table td, table th{
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+    
+}
+
+tfoot td, table th{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.fucktable{
+    width: 100%;
+    padding-left: 33%;
+}

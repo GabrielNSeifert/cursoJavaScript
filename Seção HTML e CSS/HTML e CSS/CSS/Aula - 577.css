@@ -1,0 +1,18 @@
+ul li::after{
+    content: ' - ';
+    background: red;
+    color: white;
+    display: block;
+}
+
+p::first-letter{
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    background: red;
+}
+
+p::first-line{
+    background: red;
+}

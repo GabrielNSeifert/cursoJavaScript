@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    padding: 15px;
+}
+
+.grid::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .col{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+
+.grid .col-content{
+    border-radius: 15px;
+    color: white;
+    height: 100% ;
+    width: 100% ;
+    background-color: black;
+}

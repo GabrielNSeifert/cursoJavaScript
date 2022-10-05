@@ -1,0 +1,16 @@
+/*
+ID - Classes - Atributos - 
+Pseudo Classes - Elementos - Pseudo Elementos 
+*/
+
+#p{
+    background-color: red;
+}
+
+#p.p{
+    background-color: green;
+    }
+
+body#b p#p.p{
+    background-color: purple;
+}

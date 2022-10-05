@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <Style>
+        label{
+            cursor: pointer;
+            display: block;
+        }
+    </Style>
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>
+            O meu formulario!
+        </p>
+
+        <p>
+            <label for="Nome">
+                Nome:
+            </label>
+            <input type="text" id="Nome" name="Nome" 
+            placeholder="Seu nome." required>
+        </p>
+
+        <p>
+            <label for="Dev1">
+                Sou um Dev?
+            </label>
+            <input type="checkbox" id="Dev1" name="Dev1">
+        </p>
+        <p>
+            <label for="Dev2">
+                Sou um Dev?
+            </label>
+            <input type="checkbox" id="Dev2" name="Dev2">
+        <p>
+            <label for="Dev3">
+                Sou um Dev?
+            </label>
+            <input type="checkbox" id="Dev3" name="Dev3">
+        </p>
+
+        <p>
+            Gênero:
+            <label for="Feminino">
+                Feminino
+            </label>
+            <input type="radio" id="Feminino" name="Gênero" value="Feminino">
+        </p>
+        <p>
+            <label for="Masculino">
+                Masculino
+            </label>
+            <input type="radio" id="Masculino" name="Gênero" value="Masculino">
+        </p>
+        <p>
+            <label for="Outro">
+                Outro
+            </label>
+            <input type="radio" id="Outro" name="Gênero" value="Outro">
+        </p>
+
+        <p>
+            <label for="date">
+                Data
+            </label>
+            <input type="date" id="Data" name="Data" value="2001-07-12">
+        </p>
+
+        <p>
+            <label for="color">
+                Cor
+            </label>
+            <input type="color" id="Cor" name="Cor">
+        </p>
+
+        <p>
+            <label for="Email">
+                E-mail
+            </label>
+            <input type="email" id="Email" name="Email" placeholder="Ex: email@email,com">
+        </p>
+
+        <p>
+            <label for="file">
+                Arquivo
+            </label>
+            <input type="file" id="Arquivo" 
+            name="Arquivo" accept=" .png, .svg, image/*" multiple>
+        </p>
+
+        <p>
+            <label for="number">
+                Idade
+            </label>
+            <input type="number" id="number" name="number" placeholder="Digite sua idade aqui."
+            min="0" max="">
+        </p>
+
+        <p>
+            <label for="password">
+                Senha
+            </label>
+            <input type="password" id="Senha" name="Senha"
+            placeholder="Digite sua senha.">
+        </p>
+
+        <p>
+            <label for="range">
+                Range
+            </label>
+            <input type="range" id="range" name="range"
+            list="datalist">
+            <datalist>
+                <option value="20" label="20%">
+                <option value="40">
+                <option value="60" label="60%">
+                <option value="80">
+                <option value="100" label="100%">
+            </datalist>
+        </p>
+
+        <p>
+            <label for="url">
+                  Url
+            </label>
+            <input type="url" id="url" name="url"
+            placeholder="Ex: www.seulink.com.br">
+        </p>
+
+        <p>
+            <label for="select">
+                Selecione
+            </label>
+            <select name="select" id="select">
+                <option value="Valor1">1</option>
+                <option value="Valor2">2</option>
+                <option value="Valor3">3</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="Textarea">
+                Textarea
+            </label>
+            <textarea name="Textarea" id="textarea" rows="5" cols="10"></textarea>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+        <p>
+            <button type="submit">
+                Enviar
+            </button>
+            <button type="reset">
+                Resetar
+            </button>
+        </p>
+    </form>   
+</body>
+</html>
