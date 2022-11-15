@@ -43,7 +43,7 @@ class ValidaCPF {
     }
 }
 
-let validacpf = new ValidaCPF('070.987.720-03');
+const validacpf = new ValidaCPF('070.987.720-03');
 //const validacpf2 = new ValidaCPF('999.999.999-9');
 
 //console.log(validacpf.valida(), validacpf2.valida());
