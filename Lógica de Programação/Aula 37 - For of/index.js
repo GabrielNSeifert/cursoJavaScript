@@ -1,5 +1,4 @@
 
-
 const nome = ['Gabriel Neves', 'Juao', 'Naruto'];
 
 for (let i = 0 ; i < nome.length; i++) {
