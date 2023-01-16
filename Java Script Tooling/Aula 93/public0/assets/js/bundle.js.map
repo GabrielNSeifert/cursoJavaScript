@@ -1,1 +1,0 @@
-{"version":3,"file":"bundle.js","mappings":";;;;;AAGAA,OAAO,CAACC,GAAG,CAAC,aAAa,CAAC,C","sources":["webpack://aula-93/./src/index.js"],"sourcesContent":["\r\n\r\n\r\nconsole.log('asdasdasaaa')\r\n"],"names":["console","log"],"sourceRoot":""}
